@@ -36,7 +36,6 @@ public class F1 extends Car {
          * speed more than 250: gear 6
          */
 
-        //for all other cases, change the gear accordingly
 
         if(newSpeed > 0) {
             changeSpeed(newSpeed, getCurrentDirection());
